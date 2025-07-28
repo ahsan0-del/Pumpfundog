@@ -1,0 +1,26 @@
+body {
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  color: white;
+  font-family: Arial;
+  text-align: center;
+  padding: 50px;
+}
+
+.address-box {
+  background: yellow;
+  color: black;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px;
+  word-break: break-all;
+}
+
+button {
+  background: #0066ff;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
