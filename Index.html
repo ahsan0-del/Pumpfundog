@@ -1,22 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>PumpDogFun Pre-Sale</title>
-  <link href="./style.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PumpDogFun | Pre-Sale Completed</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
   <div class="container">
-    <h1>🚀 PumpDogFun Pre-Sale</h1>
-    <div class="status-box">
-      <p>🚨 Pre-Sale has ended! 🚨</p>
-      <p>Tokens will be distributed to your wallets soon.</p>
+    <div class="logo">
+      <i class="fas fa-dog"></i>
     </div>
-    <div class="address-box">
-      <p>Contract Address:</p>
-      <p id="walletAddress">0xDF21B5046cdD2EE9d7dDD2a6f8C01D5676997762</p>
+    <h1>PumpDogFun Token Pre-Sale</h1>
+    
+    <div class="status-card">
+      <i class="fas fa-check-circle"></i>
+      <h2>Pre-Sale Successfully Completed!</h2>
+      <p>Token distribution begins in:</p>
+      <div id="countdown"></div>
     </div>
-    <button id="connectButton">Check Wallet</button>
+    
+    <div class="address-card">
+      <h3>Token Contract Address</h3>
+      <div class="address">0xDF21B5046cdD2EE9d7dDD2a6f8C01D5676997762</div>
+    </div>
+    
+    <button class="btn" id="connectButton">
+      <i class="fas fa-wallet"></i> Verify Wallet
+    </button>
+    
+    <div class="social-links">
+      <a href="#"><i class="fab fa-telegram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-medium"></i></a>
+    </div>
   </div>
-  <script src="./script.js"></script>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
